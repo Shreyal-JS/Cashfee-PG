@@ -12,7 +12,7 @@ npm run dev ( to start the localhost)
 
 Step 3 - In server folder run 
 npm init -y
-npm i express dotenv crypto axios
+npm i express dotenv crypto cors
 npm i cashfree-pg
 
 Step 4 - Modify package.json 
@@ -21,6 +21,9 @@ Step 4 - Modify package.json
     "dev": "nodemon index.js"
   }
 
-Step 5 - Create a index.js file inside server folder 
+Step 5 - Create an index.js file inside server folder 
 
+Step 6 - Install Cashfree Payments JS package and axios in Client folder
+
+npm i @cashfreepayments/cashfree-js
 
