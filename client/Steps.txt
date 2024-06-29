@@ -1,0 +1,26 @@
+Step 1 - Create two folders name Client and Server
+Step 2 - In Client Folder create vite project with 
+
+npm create vite@latest
+
+Project Name: .
+Framework: React
+Variant: Javascript
+
+npm install 
+npm run dev ( to start the localhost)
+
+Step 3 - In server folder run 
+npm init -y
+npm i express dotenv crypto axios
+npm i cashfree-pg
+
+Step 4 - Modify package.json 
+
+ "scripts": {
+    "dev": "nodemon index.js"
+  }
+
+Step 5 - Create a index.js file inside server folder 
+
+
